@@ -47,7 +47,7 @@ print(result)  # Wo ho te sɛn?
 Convert an audio file (WAV format) to text:
 
 ```python
-result = nlp.speech_to_text("your_audio_file.wav", language="tw")
+result = nlp.stt("your_audio_file.wav", language="tw")
 print(result) 
 ```
 
@@ -56,7 +56,7 @@ print(result)
 Convert text to speech:
 
 ```python
-result = nlp.text_to_speech("Good morning", lang="tw")
+result = nlp.tts("Good morning", lang="tw")
 print(result)  # audio binary, write a code to either serve to an audio file or play directly
 ```
 
